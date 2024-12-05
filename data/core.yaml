@@ -1442,7 +1442,7 @@ en:
     tooltip: "Street-level photos from Mapilio"
   streetview:
     title: Streetview.vn
-    tooltip: "Street-level photos from Streetview.VN"
+    tooltip: "Vietnam Street-level photos from Streetview.VN"
     report: "Report"
     captured_by: "Captured by {username}"
     hd: "High resolution"
