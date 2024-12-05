@@ -1441,8 +1441,8 @@ en:
     title: Mapilio
     tooltip: "Street-level photos from Mapilio"
   streetview:
-    title: Streetview
-    tooltip: "Street-level photos from StreetviewVN"
+    title: Streetview.vn
+    tooltip: "Street-level photos from Streetview.VN"
     report: "Report"
     captured_by: "Captured by {username}"
     hd: "High resolution"
