@@ -254,6 +254,7 @@ export function rendererBackground(context) {
       kartaview: 'KartaView Images',
       vegbilder: 'Norwegian Road Administration Images',
       mapilio: 'Mapilio Images',
+      streetview: 'Streetview.VN',
       panoramax: 'Panoramax Images'
     };
 

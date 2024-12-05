@@ -343,6 +343,46 @@ li.list-item-photos.list-item-mapilio.active:after {
     overflow: hidden;
 }
 
+/* Streetview Image Layer */
+li.list-item-photos.list-item-streetview.active:after {
+    background-color: #ff6f00;
+}
+.layer-streetview {
+    pointer-events: none;
+}
+.layer-streetview .viewfield-group * {
+    fill: #ff6f00;
+    stroke: #ffffff;
+    stroke-opacity: .6;
+    fill-opacity: .6;
+}
+.layer-streetview .sequence {
+    stroke: #ff6f00;
+}
+.photo-controls-streetview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.photo-controls-streetview button {
+    padding:0 6px;
+    pointer-events: initial;
+}
+
+label.streetview-hd {
+    float: left;
+    cursor: pointer;
+}
+.streetview-hd span {
+    margin-top: 2px;
+}
+.streetview-hd input[type="checkbox"] {
+    width: 12px;
+    height: 12px;
+    margin: 0 2px;
+}
+
 /* panoramax Image Layer */
 li.list-item-photos.list-item-panoramax.active:after {
     background-color: #ff6f00;
@@ -431,7 +471,8 @@ label.panoramax-hd {
 
 .ms-wrapper .pnlm-compass.pnlm-control,
 .vegbilder-wrapper  .pnlm-compass.pnlm-control,
-.panoramax-wrapper  .pnlm-compass.pnlm-control {
+.panoramax-wrapper  .pnlm-compass.pnlm-control,
+.streetview-wrapper  .pnlm-compass.pnlm-control{
     width: 26px;
     height: 26px;
     left: 4px;

@@ -1440,6 +1440,12 @@ en:
   mapilio:
     title: Mapilio
     tooltip: "Street-level photos from Mapilio"
+  streetview:
+    title: Streetview
+    tooltip: "Street-level photos from StreetviewVN"
+    report: "Report"
+    captured_by: "Captured by {username}"
+    hd: "High resolution"
   panoramax:
     title: Panoramax
     tooltip: "Street-level photos from Panoramax"
