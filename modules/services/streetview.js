@@ -10,7 +10,7 @@ import { t, localizer } from '../core/localizer';
 import pannellumPhotoFrame from './pannellum_photo';
 import planePhotoFrame from './plane_photo';
 
-const apiUrl = 'https://api.streetview.vn/';
+const apiUrl = 'https://osm-api.streetview.vn/';
 const tileUrl = 'https://gpx-tiles.streetview.vn/{z}/{x}/{y}.mvt';
 const imageDataUrl = apiUrl + 'v1/collections/{collectionId}/items/{itemId}';
 const userIdUrl = apiUrl + 'v1/user/search?name={username}';
